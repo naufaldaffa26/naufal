@@ -1,9 +1,10 @@
-baju = int(input("berapa baju yang di beli?"))
+nilai = int(input('berapa baju yang dibeli?'))
 
-if baju == 2:
-    print("diskon 50%")
-elif baju >= 3:
-    print("diskon 60%")
+if nilai == 2:
+    print ("diskon 50%")
+elif nilai >= 3:
+    print ("diskon 60%")
+    
 else :
-    print("Harga normal")
+    print ("harga normal")
     
